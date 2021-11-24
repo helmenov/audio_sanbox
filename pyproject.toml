@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "audio_sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Kotaro SONODA <kotaro1976@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pyaudio = "^0.2.11"
+sounddevice = "^0.4.3"
+numpy = "^1.21.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.4.2"
+matplotlib = "^3.4.1"
+scipy = "^1.7.2"
+SoundFile = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
